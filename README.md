@@ -137,4 +137,6 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 #   N e w s p a g e - s i g n - u p  
  #   N e w s l e t t e r - s i g n - u p  
+ #   N e w s p a g e - s i g n - u p  
+ #   N e w s l e t t e r - s i g n - u p  
  

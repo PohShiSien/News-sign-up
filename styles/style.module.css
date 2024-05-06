@@ -1,0 +1,181 @@
+.contentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--clr-darkSlateGrey);
+}
+
+.content {
+    background-color: var(--clr-white);
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    padding-left: 3rem;
+}
+
+@media (max-width: 768px) {
+    .contentContainer {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+        border: 1px solid yellow;
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .image {
+        width: 100% !important;
+        object-fit: cover;
+        margin-top: 0px !important;  
+        border-radius: 2rem;
+    }
+
+    .imageContainer {
+        width: 100% !important;
+        height: auto;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-right: 0;
+    }
+
+    .successContent {
+        width: 100% !important;
+        height: 100vh !important;
+        border-radius: 0 !important;
+
+    }
+
+    .successButton {
+        margin-top: 18rem !important;
+    }
+}
+
+.imageContainer {
+    margin-right: -40px;
+    margin-top: -20px;
+    margin-bottom: -25px;
+    padding-left: 1.5rem;
+}
+
+.contentText {
+    font-family: "Roboto";
+    color: var(--clr-charcoalGrey);
+    width: 25rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentHead {
+    font-size: 3.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.contentBenefits {
+    padding-top: 1.5rem;
+    line-height: 1.7rem;
+}
+
+.contentBenefitsText {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.email {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.emailText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.emailHeader {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.emailErrorMessage {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--clr-tomato);
+}
+
+.input {
+    width: 100%;
+    height: 3.2rem;
+    margin-top: 0.3rem;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--clr-grey);
+}
+
+.input::placeholder {
+    font-size: 1rem;
+}
+
+.button {
+    height: 3.2rem;
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--clr-charcoalGrey);
+    color: var(--clr-white);
+    font-weight: 700;
+    border: none;
+    margin-top: 1.5rem;
+}
+
+.successContent {
+    background-color: var(--clr-white);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 30%;
+    overflow: hidden;
+}
+
+.successContent h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.successContent button {
+    width: 100%;
+    background-color: var(--clr-darkSlateGrey);
+    color: var(--clr-white);
+    font-weight: 700;
+    border: none;
+    height: 3.2rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.successContent p {
+    line-height: 1.5rem;
+}
+
+.emailBold {
+    font-weight: 700;
+}

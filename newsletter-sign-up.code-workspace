@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "newsletter-sign-up",
+			"path": "."
+		},
+		{
+			"name": "design",
+			"path": "../Downloads/newsletter-sign-up-with-success-message-main/newsletter-sign-up-with-success-message-main/design"
+		},
+		{
+			"name": "fonts",
+			"path": "../Downloads/newsletter-sign-up-with-success-message-main (1)/newsletter-sign-up-with-success-message-main/assets/fonts"
+		},
+		{
+			"name": "assets",
+			"path": "../Downloads/newsletter-sign-up-with-success-message-main/newsletter-sign-up-with-success-message-main/assets"
+		},
+		{
+			"name": "images",
+			"path": "../Downloads/newsletter-sign-up-with-success-message-main (1)/newsletter-sign-up-with-success-message-main/assets/images"
+		}
+	],
+	"settings": {}
+}
